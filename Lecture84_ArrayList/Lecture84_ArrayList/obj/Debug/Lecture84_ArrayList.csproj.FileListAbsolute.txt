@@ -1,0 +1,15 @@
+F:\SolutionTest\BornToDev\ArrayListTest\ArrayList\Lecture84_ArrayList\Lecture84_ArrayList\bin\Debug\Lecture84_ArrayList.exe.config
+F:\SolutionTest\BornToDev\ArrayListTest\ArrayList\Lecture84_ArrayList\Lecture84_ArrayList\bin\Debug\Lecture84_ArrayList.exe
+F:\SolutionTest\BornToDev\ArrayListTest\ArrayList\Lecture84_ArrayList\Lecture84_ArrayList\bin\Debug\Lecture84_ArrayList.pdb
+F:\SolutionTest\BornToDev\ArrayListTest\ArrayList\Lecture84_ArrayList\Lecture84_ArrayList\obj\Debug\Lecture84_ArrayList.csprojAssemblyReference.cache
+F:\SolutionTest\BornToDev\ArrayListTest\ArrayList\Lecture84_ArrayList\Lecture84_ArrayList\obj\Debug\MainWindow.g.cs
+F:\SolutionTest\BornToDev\ArrayListTest\ArrayList\Lecture84_ArrayList\Lecture84_ArrayList\obj\Debug\App.g.cs
+F:\SolutionTest\BornToDev\ArrayListTest\ArrayList\Lecture84_ArrayList\Lecture84_ArrayList\obj\Debug\Lecture84_ArrayList_MarkupCompile.cache
+F:\SolutionTest\BornToDev\ArrayListTest\ArrayList\Lecture84_ArrayList\Lecture84_ArrayList\obj\Debug\Lecture84_ArrayList_MarkupCompile.lref
+F:\SolutionTest\BornToDev\ArrayListTest\ArrayList\Lecture84_ArrayList\Lecture84_ArrayList\obj\Debug\MainWindow.baml
+F:\SolutionTest\BornToDev\ArrayListTest\ArrayList\Lecture84_ArrayList\Lecture84_ArrayList\obj\Debug\Lecture84_ArrayList.g.resources
+F:\SolutionTest\BornToDev\ArrayListTest\ArrayList\Lecture84_ArrayList\Lecture84_ArrayList\obj\Debug\Lecture84_ArrayList.Properties.Resources.resources
+F:\SolutionTest\BornToDev\ArrayListTest\ArrayList\Lecture84_ArrayList\Lecture84_ArrayList\obj\Debug\Lecture84_ArrayList.csproj.GenerateResource.cache
+F:\SolutionTest\BornToDev\ArrayListTest\ArrayList\Lecture84_ArrayList\Lecture84_ArrayList\obj\Debug\Lecture84_ArrayList.csproj.CoreCompileInputs.cache
+F:\SolutionTest\BornToDev\ArrayListTest\ArrayList\Lecture84_ArrayList\Lecture84_ArrayList\obj\Debug\Lecture84_ArrayList.exe
+F:\SolutionTest\BornToDev\ArrayListTest\ArrayList\Lecture84_ArrayList\Lecture84_ArrayList\obj\Debug\Lecture84_ArrayList.pdb
