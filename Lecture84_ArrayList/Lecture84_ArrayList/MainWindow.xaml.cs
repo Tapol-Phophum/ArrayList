@@ -38,11 +38,17 @@ namespace Lecture84_ArrayList
             {
                 //Show Data
                 txtInput.Text = "";
-                foreach (string data in arrayList)
-                    txtInput.AppendText(data+ ",");
+                int i = 1;
+
+                    foreach (string data in arrayList)
+                    {
+                       txtInput.AppendText(i + ":" + data+", ");
+                    i++;  
+                    }
+
                 //MessageBox.Show(data.ToString());
                 //Count Array
-                MessageBox.Show("Count" + " " + arrayList.Count.ToString());
+               MessageBox.Show("Count" + " " + arrayList.Count.ToString());
                 //sorting'
                 // arrayList.Sort();
             }
@@ -56,12 +62,27 @@ namespace Lecture84_ArrayList
             }
             else
             {
+                int i = 0; // keep array count
                 string inText = txtInput.Text;
                 //remove
-                arrayList.Remove(txtInput.Text); // remove object
-                txtInput.Clear();
-                lblStatusBar.Content = ("Remove complete");
-                //arrayList.RemoveAt(2); // remove index
+                foreach (string data in arrayList)
+                {
+                    if (data == inText)
+                    {
+                        i++;
+                    }
+                }
+                if(i>0)
+                {
+                    arrayList.Remove(inText); // remove object
+                    //arrayList.RemoveAt(2); // remove index
+                    txtInput.Clear();
+                    lblStatusBar.Content = ("Remove complete");
+                }
+                else
+                {
+                    MessageBox.Show("data " + inText + " Data not found");
+                }
             }
         }
 
@@ -80,9 +101,15 @@ namespace Lecture84_ArrayList
             }
         }
 
-        private void txtInput_KeyDown(object sender, KeyEventArgs e)
+        private void txtInput_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+
+        private void txtInput_IsMouseCapturedChanged(object sender, DependencyPropertyChangedEventArgs e)
         {
             lblStatusBar.Content = (" Wait");
+            txtInput.Text = "";
         }
     }
 }

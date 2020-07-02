@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lecture84_ArrayList"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="ArrayList test" Height="450" Width="800">
     <Grid>
         <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Height="53" Margin="100,240,0,0" VerticalAlignment="Top" Width="168" FontSize="18" Click="btnAdd_Click"/>
         <Button x:Name="btnRemove" Content="Remove" HorizontalAlignment="Left" Height="53" Margin="294,240,0,0" VerticalAlignment="Top" Width="168" FontSize="18" Click="Button_Click_1"/>
         <Button x:Name="btnShow" Content="Show All" HorizontalAlignment="Left" Height="53" Margin="491,240,0,0" VerticalAlignment="Top" Width="168" FontSize="18" Click="Button_Click"/>
-        <TextBox x:Name="txtInput" HorizontalAlignment="Left" Height="44" Margin="100,178,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="559" FontSize="18" KeyDown="txtInput_KeyDown"/>
+        <TextBox x:Name="txtInput" HorizontalAlignment="Left" Height="44" Margin="100,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="559" FontSize="18" IsMouseCapturedChanged="txtInput_IsMouseCapturedChanged"/>
         <Label x:Name="lblStatusBar" Content="Status Bar" HorizontalAlignment="Left" Height="57" Margin="100,91,0,0" VerticalAlignment="Top" Width="196" FontSize="20"/>
 
     </Grid>
